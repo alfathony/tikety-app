@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tikety</string>
+    <string name="splash_text">Wisata Jadi Lebbih Asoy!</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="sign_in">Sign In</string>
+    <string name="tag_line">Discover \nThe Beauty \nOf Earth</string>
+</resources>
