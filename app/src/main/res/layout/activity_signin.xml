@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_secondary_gradient"
+    tools:context=".SigninActivity">
+
+    <ImageView
+        android:id="@+id/logotikety"
+        android:layout_width="116dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/applogowhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:layout_marginTop="62dp"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@drawable/rounded_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logotikety">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/grayPrimary"
+                android:lineSpacingExtra="3sp"
+                android:layout_marginBottom="8dp"
+                app:fontFamily="@font/exo_2"
+                android:text="@string/username_label" />
+
+            <EditText
+                android:lines="1"
+                android:paddingLeft="12dp"
+                android:textColor="@color/carbon"
+                android:fontFamily="@font/exo_2"
+                android:background="@drawable/bg_input_edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/grayPrimary"
+                android:lineSpacingExtra="3sp"
+                android:layout_marginBottom="8dp"
+                app:fontFamily="@font/exo_2"
+                android:text="@string/password_label" />
+
+            <EditText
+                android:inputType="textPassword"
+                android:lines="1"
+                android:paddingLeft="12dp"
+                android:textColor="@color/carbon"
+                android:fontFamily="@font/exo_2"
+                android:background="@drawable/bg_input_edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_primary"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/sign_in"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:fontFamily="@font/exo_2"
+             />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_new_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/exo_2"
+        android:text="@string/create_new_account"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</android.support.constraint.ConstraintLayout>
