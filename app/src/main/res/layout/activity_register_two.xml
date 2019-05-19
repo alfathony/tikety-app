@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fbfbfb"
-    tools:context=".SigninActivity">
+    tools:context=".RegisterTwoActivity">
 
     <View
         android:id="@+id/view2"
@@ -27,7 +27,7 @@
         android:fontFamily="@font/exo_2_bold"
         android:gravity="center_horizontal"
         android:lineSpacingExtra="4sp"
-        android:text="Create New Account"
+        android:text="Selfie Time"
         android:textColor="#ffffff"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:text="Please fill up the forms below \nfor informations" />
+        android:text="Let the world knows yourself \n more better and ever" />
 
 
     <LinearLayout
@@ -74,6 +74,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
             android:orientation="vertical">
 
             <TextView
@@ -81,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:lineSpacingExtra="3sp"
-                android:text="@string/username_label"
+                android:text="Nama"
                 android:textColor="@color/grayPrimary"
                 android:textSize="16sp"
                 app:fontFamily="@font/exo_2" />
@@ -91,35 +92,7 @@
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"
                 android:fontFamily="@font/exo_2"
-                android:lines="1"
-                android:paddingLeft="12dp"
-                android:textColor="@color/carbon" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingExtra="3sp"
-                android:text="@string/password_label"
-                android:textColor="@color/grayPrimary"
-                android:textSize="16sp"
-                app:fontFamily="@font/exo_2" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/bg_input_edit"
-                android:fontFamily="@font/exo_2"
-                android:inputType="textPassword"
+                android:inputType="text"
                 android:lines="1"
                 android:paddingLeft="12dp"
                 android:textColor="@color/carbon" />
@@ -139,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:lineSpacingExtra="3sp"
-                android:text="@string/email_label"
+                android:text="Bio"
                 android:textColor="@color/grayPrimary"
                 android:textSize="16sp"
                 app:fontFamily="@font/exo_2" />
@@ -149,7 +122,7 @@
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"
                 android:fontFamily="@font/exo_2"
-                android:inputType="textEmailAddress"
+                android:inputType="text"
                 android:lines="1"
                 android:paddingLeft="12dp"
                 android:textColor="@color/carbon" />
@@ -159,6 +132,20 @@
 
 
     </LinearLayout>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/bg_view_circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 
     <LinearLayout
         android:layout_width="match_parent"
