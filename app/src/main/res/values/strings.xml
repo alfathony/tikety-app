@@ -9,4 +9,6 @@
     <string name="create_new_account">Create new account</string>
     <string name="register_title">Create New Account</string>
     <string name="email_label">Email Address</string>
+    <string name="name_label">Name</string>
+    <string name="bio_label">Bio</string>
 </resources>
