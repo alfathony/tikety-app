@@ -11,4 +11,8 @@
     <string name="email_label">Email Address</string>
     <string name="name_label">Name</string>
     <string name="bio_label">Bio</string>
+    <string name="label_register_success">Kamu Hebat</string>
+    <string name="caption_register_success">Selamat datang pada TiketSaya \ndan nikmati wisatamu</string>
+    <string name="explore_now">Explore Now</string>
+    <string name="my_dashboard">My Dashboard</string>
 </resources>
