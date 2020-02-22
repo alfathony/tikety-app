@@ -27,13 +27,6 @@ public class RegisterTwoActivity extends AppCompatActivity {
             }
         });
 
-//        btn_continue.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent gotoSuccess = new Intent(RegisterTwoActivity.this, RegisterSuccess.class);
-//                startActivity(gotoSuccess);
-//            }
-//        });
 
         btn_continue.setOnClickListener(new View.OnClickListener() {
             @Override
