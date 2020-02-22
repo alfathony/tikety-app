@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "12429666370",
+    "firebase_url": "https://tikety-app.firebaseio.com",
+    "project_id": "tikety-app",
+    "storage_bucket": "tikety-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12429666370:android:026d6495358ec5f8ff25db",
+        "android_client_info": {
+          "package_name": "com.alfathony.tikety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12429666370-0k6mhi1j5vdq1r5kkc3e6gplgv78d7oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alfathony.tikety",
+            "certificate_hash": "88444138610597d6a3057a0ccf7939541d7b2aee"
+          }
+        },
+        {
+          "client_id": "12429666370-0gvrr7od72tapoq9pqtbggors0nd68j6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADJUYRsFlZktypvdcsOYIBIFb-ar4fsHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12429666370-0gvrr7od72tapoq9pqtbggors0nd68j6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
